@@ -1,0 +1,33 @@
+num=input()
+current_batsman=1
+non_striker=2
+scores=num.split(",")
+start=0
+balls=0
+wickets=0
+while(start<len(scores)):
+    if(scores[start].isdigit()):
+        if(int(scores[start])%2==1):
+            temp=current_batsman
+            current_batsman=non_striker
+            non_striker=temp
+            balls+=1
+        else:
+            balls+=1
+    elif(scores[start]=="W"):
+        if(non_striker==current_batsman+1):
+            current_batsman+=2
+        else:
+            current_batsman+=1
+        balls+=1
+        wickets+=1
+        if(wickets>=10):
+            current_batsman=0
+            break
+    if(balls==6 and start!=1):
+        temp=current_batsman
+        current_batsman=non_striker
+        non_striker=temp
+        balls=0
+    start+=1
+print(current_batsman)
