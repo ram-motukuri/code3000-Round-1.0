@@ -1,9 +1,9 @@
 # code3000-Round1
-Code3000 is a coding challenge created by me. The solutions to the questions are discussed here.
-we have conducted 7 challenges until now and each challenge has 3 coding questions.
-All the 20 coding problems are discussed here.
+Code3000 is a coding challenge created by me. The solutions to the questions of round 1 are discussed here.
+we have conducted 7 challenges in this round 1 and each challenge has 3 coding questions.
+All the coding problems are discussed here.
 
-Please hold ctrl and click on the link.
+Please hold ctrl and click on the link to view the question.
 
 Challenge 1 : (https://www.hackerrank.com/contests/code3000-c1)
 
